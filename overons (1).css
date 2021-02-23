@@ -1,0 +1,141 @@
+.dropbtn {
+ background-color: #a1b3a7;
+ color: white;
+ padding: 16px;
+ font-size: 16px;
+ border: none;
+ z-index: 50;
+}
+
+.dropdown {
+ position: relative;
+ display: inline-block;
+ background-color: #a1b3a7;
+ z-index: 50;
+}
+
+.dropdown-content {
+ display: none;
+ position: absolute;
+ background-color: #a1b3a7;
+ min-width: 160px;
+ box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+ z-index: 50;
+ box-shadow: 0px 10px 20px grey;
+}
+
+.dropdown-content a {
+ color: black;
+ padding: 12px 16px;
+ text-decoration: none;
+ display: block;
+ background-color: #a1b3a7;
+ z-index: 50;
+}
+
+.dropdown-content a:hover {
+  background-color: #aebfb4;
+  z-index: 50;
+}
+
+.dropdown:hover .dropdown-content {
+  display: block;
+
+}
+
+.dropdown:hover .dropbtn {
+  background-color: #a1b3a7;
+}
+
+.button {
+}
+
+header {
+  background-color: #a1b3a7;
+  box-shadow: 0px 10px 20px grey;
+}
+
+
+*{
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+.parent{
+  display: flex;
+}
+
+.child1{
+  width: 200px;
+  height: 120px;
+  background: rgb(217, 187, 169);
+  flex-grow: 1;
+  align-items: flex-end
+}
+
+.p1 {
+    margin-left: 10px;
+    font-family: 'Playfair Display', serif;
+    top: 5px;
+    position: relative;
+}
+
+.p2 {
+    margin-left: 10px;
+    font-family: 'Playfair Display', serif;
+    top: 5px;
+    position: relative;
+}
+
+.p3 {
+    margin-left: 10px;
+    font-family: 'Playfair Display', serif;
+    top: 5px;
+    position: relative;
+}
+
+.Grandchild {
+    position: relative;
+    align-items: center;
+    display: flex;
+}
+
+.foto1 {
+    width: 40px;
+    position: relative;
+}
+
+.foto2 {
+    width: 40px;
+    position: relative;
+    margin-left: auto;
+}
+
+.foto3 {
+    width: 40px;
+    position: relative;
+    margin-left: auto;
+}
+
+.foto4{
+  width: 120px
+  position: relative;
+}
+.contactForm .inputBox {
+    position: relative;
+    width: 100%;
+    margin-top: 10px;
+    
+}
+
+.contactForm .inputBox input[type="submit"] {
+    width: 100px;
+    background: #4682b4;
+    color: #fff;
+    border: none;
+    cursor: pointer;
+    padding: 10px;
+    font-size: 18px;
+    align-items: center;
+}
